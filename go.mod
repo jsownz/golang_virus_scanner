@@ -2,7 +2,10 @@ module frozensoliddesigns.com/go_virus_scanner
 
 go 1.17
 
-require github.com/fatih/color v1.12.0
+require (
+	github.com/akamensky/argparse v1.3.1
+	github.com/fatih/color v1.12.0
+)
 
 require (
 	github.com/mattn/go-colorable v0.1.8 // indirect
